@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0325F7501B3CA1B300FBE562 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0325F74F1B3CA1B300FBE562 /* AboutViewController.swift */; };
+		0325F7521B3CA47700FBE562 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0325F7511B3CA47700FBE562 /* InfoViewController.swift */; };
+		0325F7541B3CA50A00FBE562 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0325F7531B3CA50A00FBE562 /* PlanetsViewController.swift */; };
 		035219501B3AE95000A915E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0352194F1B3AE95000A915E2 /* AppDelegate.swift */; };
 		035219521B3AE95000A915E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035219511B3AE95000A915E2 /* ViewController.swift */; };
 		035219551B3AE95000A915E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035219531B3AE95000A915E2 /* Main.storyboard */; };
 		035219571B3AE95000A915E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035219561B3AE95000A915E2 /* Images.xcassets */; };
 		0352195A1B3AE95000A915E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035219581B3AE95000A915E2 /* LaunchScreen.xib */; };
 		035219661B3AE95000A915E2 /* SpacefactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035219651B3AE95000A915E2 /* SpacefactsTests.swift */; };
+		038C1F9F1B41DFAC00A254DC /* MoonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C1F9E1B41DFAC00A254DC /* MoonsViewController.swift */; };
+		038C1FA11B41E0CD00A254DC /* NebulaeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C1FA01B41E0CD00A254DC /* NebulaeViewController.swift */; };
+		038C1FA31B41E0DA00A254DC /* GalaxiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038C1FA21B41E0DA00A254DC /* GalaxiesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0325F74F1B3CA1B300FBE562 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		0325F7511B3CA47700FBE562 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		0325F7531B3CA50A00FBE562 /* PlanetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
 		0352194A1B3AE95000A915E2 /* Spacefacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spacefacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0352194E1B3AE95000A915E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0352194F1B3AE95000A915E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,9 @@
 		0352195F1B3AE95000A915E2 /* SpacefactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacefactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		035219641B3AE95000A915E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		035219651B3AE95000A915E2 /* SpacefactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacefactsTests.swift; sourceTree = "<group>"; };
+		038C1F9E1B41DFAC00A254DC /* MoonsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoonsViewController.swift; sourceTree = "<group>"; };
+		038C1FA01B41E0CD00A254DC /* NebulaeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NebulaeViewController.swift; sourceTree = "<group>"; };
+		038C1FA21B41E0DA00A254DC /* GalaxiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalaxiesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,12 @@
 				035219561B3AE95000A915E2 /* Images.xcassets */,
 				035219581B3AE95000A915E2 /* LaunchScreen.xib */,
 				0352194D1B3AE95000A915E2 /* Supporting Files */,
+				0325F74F1B3CA1B300FBE562 /* AboutViewController.swift */,
+				0325F7511B3CA47700FBE562 /* InfoViewController.swift */,
+				0325F7531B3CA50A00FBE562 /* PlanetsViewController.swift */,
+				038C1F9E1B41DFAC00A254DC /* MoonsViewController.swift */,
+				038C1FA01B41E0CD00A254DC /* NebulaeViewController.swift */,
+				038C1FA21B41E0DA00A254DC /* GalaxiesViewController.swift */,
 			);
 			path = Spacefacts;
 			sourceTree = "<group>";
@@ -212,7 +230,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0325F7541B3CA50A00FBE562 /* PlanetsViewController.swift in Sources */,
+				038C1F9F1B41DFAC00A254DC /* MoonsViewController.swift in Sources */,
+				0325F7501B3CA1B300FBE562 /* AboutViewController.swift in Sources */,
 				035219521B3AE95000A915E2 /* ViewController.swift in Sources */,
+				038C1FA31B41E0DA00A254DC /* GalaxiesViewController.swift in Sources */,
+				038C1FA11B41E0CD00A254DC /* NebulaeViewController.swift in Sources */,
+				0325F7521B3CA47700FBE562 /* InfoViewController.swift in Sources */,
 				035219501B3AE95000A915E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +435,7 @@
 				0352196B1B3AE95000A915E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0352196C1B3AE95000A915E2 /* Build configuration list for PBXNativeTarget "SpacefactsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +444,7 @@
 				0352196E1B3AE95000A915E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
