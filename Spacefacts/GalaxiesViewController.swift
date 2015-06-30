@@ -8,7 +8,10 @@
 
 import UIKit
 
-class GalaxiesViewController: UITableViewController {
+class GalaxiesViewController: UITableViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var galaxyNames = ["Milkyway", "Andromeda", "Magellanic Clouds", "Triangulum"]
+    var galaxyInfo = ["", "", "", ""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +27,7 @@ class GalaxiesViewController: UITableViewController {
     
     // Let it know how many rows of data are needed
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return self.galaxyNames.count
     }
     
     // Tells it how to display these rows
@@ -34,21 +37,21 @@ class GalaxiesViewController: UITableViewController {
         
         let label = cell.viewWithTag(1000) as! UILabel
         
-        if indexPath.row == 0 {
-            label.text = "Milky Way"
-        } else if indexPath.row == 1 {
-            label.text = "Andromeda"
-        } else if indexPath.row == 2 {
-            label.text = "Magellanic Clouds"
-        } else if indexPath.row == 3 {
-            label.text = "Triangulum"
-        } 
+        label.text = galaxyNames[indexPath.row]
         
         return cell
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-            tableView.deselectRowAtIndexPath(indexPath, animated: true)
+           // tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        // Create an alert for info
+        let info = UIAlertController(title: galaxyNames[indexPath.row], message: galaxyInfo[indexPath.row], preferredStyle: .Alert)
+        let done = UIAlertAction(title: "Done", style: .Default, handler: nil)
+        info.addAction(done)
+        
+        // Display the alert
+        self.presentViewController(info, animated: true, completion: nil)
     }
     
     // Action method for the back button

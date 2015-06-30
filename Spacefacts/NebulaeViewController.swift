@@ -8,7 +8,10 @@
 
 import UIKit
 
-class NebulaeViewController: UITableViewController {
+class NebulaeViewController: UITableViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    var nebulaeNames = ["Crab Nebula", "Orion Nebula", "Helix Nebula", "Cat's Eye Nebula", "Ant Nebula"]
+    var nebulaeInfo = ["", "", "", "", ""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +28,7 @@ class NebulaeViewController: UITableViewController {
     
     // Let it know how many rows of data are needed
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return self.nebulaeNames.count
     }
     
     // Tells it how to display these rows
@@ -35,23 +38,20 @@ class NebulaeViewController: UITableViewController {
         
         let label = cell.viewWithTag(1000) as! UILabel
         
-        if indexPath.row == 0 {
-            label.text = "Crab Nebula"
-        } else if indexPath.row == 1 {
-            label.text = "Orion Nebula"
-        } else if indexPath.row == 2 {
-            label.text = "Helix Nebula"
-        } else if indexPath.row == 3 {
-            label.text = "Cat's Eye Nebula"
-        } else if indexPath.row == 4 {
-            label.text = "Ant Nebula"
-        }
+        label.text = nebulaeNames[indexPath.row]
         
         return cell
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-            tableView.deselectRowAtIndexPath(indexPath, animated: true)
+           // tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        // Create an alert for info
+        let info = UIAlertController(title: nebulaeNames[indexPath.row], message: nebulaeInfo[indexPath.row], preferredStyle: .Alert)
+        let done = UIAlertAction(title: "Done", style: .Default, handler: nil)
+        info.addAction(done)
+        
+        // Display the alert
+        self.presentViewController(info, animated: true, completion: nil)
     }
     
     // Action method for the back button

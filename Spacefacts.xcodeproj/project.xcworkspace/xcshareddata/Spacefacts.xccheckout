@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0F36EC8A-9796-4723-9B25-370AFC0F08D5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Spacefacts</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B1068E183E51F6BB7F967EE78CD32DF7044BFA85</key>
+		<string>github.com:ckonoz/Spacefacts.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Spacefacts.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B1068E183E51F6BB7F967EE78CD32DF7044BFA85</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ckonoz/Spacefacts.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B1068E183E51F6BB7F967EE78CD32DF7044BFA85</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B1068E183E51F6BB7F967EE78CD32DF7044BFA85</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Spacefacts</string>
+		</dict>
+	</array>
+</dict>
+</plist>
